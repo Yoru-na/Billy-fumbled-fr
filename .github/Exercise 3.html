@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test runf cuk</title>
+  <style>
+    #redbox, #redbox2, #redbox3 {
+      width: 300px;
+      height: 300px;
+      transition: border-radius 5s ease;
+    }
+
+    #redbox {
+      background-color: green;
+    }
+
+    #redbox2 {
+      background-color: aquamarine;
+    }
+
+    #redbox3 {
+        background-color: blueviolet;
+    }
+
+    #redbox:hover{
+        border-radius: 50%;
+      }
+
+    #redbox2:hover {
+      border-radius: 50%;
+    }
+    #redbox3:hover {
+        border-radius: 50%;
+    }
+    @media only screen and (max-width: 600px) {
+      #redbox {
+        background-color: aquamarine;
+      }
+      #redbox2 {
+        background-color: green;
+      }
+      #redbox3 {
+        background-color: blue;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="redbox"></div>
+  <br>
+  <div id="redbox2"></div>
+  <br>
+  <div id="redbox3"></div>
+</body>
+</html>
