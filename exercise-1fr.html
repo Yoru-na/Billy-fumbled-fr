@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8">
+  <title>yma</title>
+  <style>
+    .box1 {
+      width: 300px;
+      height: 300px;
+      background-color: red;
+    }
+
+    .box2 {
+      width: 300px;
+      height: 300px;
+      background-color: blue;
+    }
+
+    @media screen and (max-width: 500px) {
+      .box1 {
+        background-color: blue;
+      }
+      .box2 {
+        background-color: red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+</body>
+</html>
