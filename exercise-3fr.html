@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,16 +11,17 @@
         .box {
             width: 300px;
             height: 300px;
-            background-color: rgb(0, 60, 255)
+            background-color: blue;
+            transition: border-radius 5s ease;
         }
 
-        @media screen and (max-width: 900px) {
+        @media only screen and (max-width: 900px) {
             .box {
                 border-radius: 50px;
                 background-color: rgb(0, 60, 255)
             }
         }
-        @media screen and (max-width: 600px) {
+        @media only screen and (max-width: 600px) {
             .box {
                 border-radius: 500px;
                 background-color:rgb(0, 60, 255)
